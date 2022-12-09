@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Evolução do Computador</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-md">
+            <a class="navbar-brand" href="#">A Evolução do Computador</a>
+        </div>
+    </nav>
+
+    <!--Carrossel -->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./img/museu-do-computador.jpg" class="d-block w-100" alt="Imagens do Museu do Computador">
+            <div class="carousel-caption d-none d-md-block">
+              <p class="txt">Imagens: Museu do Computador - São Paulo</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./img/Museu-do-computador-2.jpeg" class="d-block w-100" alt="Imagens do Museu do Computador">
+            <div class="carousel-caption d-none d-md-block">
+              <p class="txt">Imagens: Museu do Computador - São Paulo</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <!--Div para Cards  -->
+    <div id="DivPai">
+
+        <div id="filho1">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img id="ImagemCard1" src="./img/Eniac.png" class="img-fluid rounded-start" alt="ENIAC">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">ENIAC - O primeiro computador do mundo</h5>
+                      <p class="card-text">Há 75 anos, em fevereiro de 1946, era revelado o primeiro computador completamente eletrônico da história: o Eletronical Numerical Integrator and Computer - ou ENIAC, simplesmente.</p>
+                      <p class="card-text"><small class="text-muted"> Inicio da 1º Geração de Computadores</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div id="filho2">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img id="ImagemCard2" src="./img/Transistor.png" class="img-fluid rounded-start" alt="Transistor">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Transistores</h5>
+                      <p class="card-text">Em 1947 foi apresentado ao mundo o transistor, que tinha a capacidade de substituir as enormes válvulas no processador do computador. A partir disto, foi possível diminuir o tamanho dos computadores e aumentar um pouco a velocidade de seus processos. </p>
+                      <p class="card-text"><small class="text-muted">1º Geração de Computadores</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div id="filho3">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img id="ImagemCard3" src="./img/Circuito Integrado.png" class="img-fluid rounded-start" alt="Circuito Integrado">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Circuito Integrado</h5>
+                      <p class="card-text">O circuito integrado, utilizado a partir de 1958, nada mais é do que um conjunto de transistores unificados em uma peça. Esta união permitiu a diminuição de tamanho das máquinas e aumento da velocidade de processamento. Os circuitos integrados são mais conhecidos como chips.</p>
+                      <p class="card-text"><small class="text-muted">1º Geração de Computadores</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div id="filho4">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img id="ImagemCard4" src="./img/Intel4004.jpg" class="img-fluid rounded-start" alt="Microprocessador - Intel 4004">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Microprocessadores</h5>
+                      <p class="card-text">Em 1974, a Intel lança o primeiro microprocessador: o Intel 4004. Ele reúne em um mesmo chip todas as funções do processador central. A partir de então, o desenvolvimento de computadores pessoais se tornou possível.</p>
+                      <p class="card-text"><small class="text-muted">3º Geração de Computadores</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div id="filho5">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img id="ImagemCard5" src="./img/altair8800.jpg" class="img-fluid rounded-start" alt="Altair 8000">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Altair 8000 by Microsoft</h5>
+                      <p class="card-text">Também em 1974, foi desenvolvido o Altair 8800, o primeiro computador a levar um microprocessador. Em 1975, dois estudantes adaptaram um programa em linguagem de computação básica para uso no Altair. Esses estudantes eram Bill Gates e Paul Allen, e este foi o primeiro programa da Microsoft.</p>
+                      <p class="card-text"><small class="text-muted">3º Geração de Computadores</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div id="filho6">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img id="ImagemCard6" src="./img/Apple1.jpg" class="img-fluid rounded-start" alt="Apple 1">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Apple One</h5>
+                      <p class="card-text">Em 1976 foi lançado o primeiro computador oficialmente desenvolvido para uso pessoal, o Apple I. Ele foi desenvolvido pelos estudantes Steve Jobs e Stephan Wozniack</p>
+                      <p class="card-text"><small class="text-muted">4º Geração de Computadores</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div id="filho7">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img id="ImagemCard7" src="./img/Apple2.jpg" class="img-fluid rounded-start" alt="Apple 2">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Apple Two</h5>
+                      <p class="card-text">No ano seguinte, Jobs e Wozniack lançam o Apple II, o primeiro computador pessoal mais próximo do que conhecemos — isto porque ele possuía um teclado e permitia a conexão com um monitor.</p>
+                      <p class="card-text"><small class="text-muted">4º Geração de Computadores</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        
+        <div id="filho8">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img id="ImagemCard8" src="./img/IBM.jpg" class="img-fluid rounded-start" alt="PC IBM">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">PC da IBM</h5>
+                      <p class="card-text">O Personal Computer da IBM, ou, para os mais íntimos, PC, revolucionou o mercado de computadores pessoais a partir de 1981. Ele utilizava o MS-DOS, software desenvolvido pela Microsoft, início de uma parceria longeva entre a desenvolvedora e a marca de tecnologia. </p>
+                      <p class="card-text"><small class="text-muted">4º Geração de Computadores</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div id="filho9">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img id="ImagemCard9" src="./img/Macintosh.jpg" class="img-fluid rounded-start" alt="Macintosh">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Macintosh</h5>
+                      <p class="card-text">Em 1984, a Apple lança seu primeiro sucesso comercial e o único a fazer frente ao PC da IBM em questões comerciais: o Macintosh. 
+
+                        Ele foi o primeiro computador popular a usar uma interface gráfica, ou seja, permitir a interação com imagens além de letras e números. Reconhece o nome? Sim, ele é o vovô dos iMacs e dos MacBooks!</p>
+                      <p class="card-text"><small class="text-muted">4º Geração de Computadores</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div id="filho10">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img id="ImagemCard10" src="img/CDROM.jpg" class="img-fluid rounded-start" alt="CD-ROM">
+                  </div>    
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">CD ROM</h5>
+                      <p class="card-text">Surge uma nova forma de armazenar mídias, com maior capacidade e mais praticidade. Os CD-ROMs têm também a capacidade de armazenar fotos e vídeos. Nos anos 90 surgem computadores capazes de acessar fax, impressoras e scanners. Além disso, também começa a surgir a internet e máquinas que são capazes de acessar a rede mundial.</p>
+                      <p class="card-text"><small class="text-muted">5º Geração de Computadores(Atualidade)</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        
+        <div id="filho11">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img id="ImagemCard11" src="img/Lenovo.jpg" class="img-fluid rounded-start" alt="Notebook">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Notebooks</h5>
+                      <p class="card-text">Na virada do milênio, começaram a ficar cada vez mais populares os computadores portáteis, conhecidos como laptops ou notebooks. O primeiro notebook, entretanto, o Osborne 1, foi lançado quase 20 anos antes, em 1981. A internet ganhava os lares e as empresas e tornou-se progressivamente o maior meio de armazenamento de dados e troca de informações.</p>
+                      <p class="card-text"><small class="text-muted">5º Geração de Computadores(Atualidade)</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div id="filho12">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img id="ImagemCard12" src="./img/I.A.jpg" class="img-fluid rounded-start" alt="Imagem Ilustrativa da Inteligência Artificial">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Inteligência Artificial</h5>
+                      <p class="card-text">A inteligência artificial começou a tomar forma antes de 2010, mas foi a partir de então que começou a se desenvolver cada vez mais. Em termos mais simples, IA que significa inteligência artificial refere-se a sistemas ou máquinas que mimetizam a inteligência humana para executar tarefas e podem se aprimorar iterativamente com base nas informações que eles coletam. A IA se manifesta de várias formas.</p>
+                      <p class="card-text"><small class="text-muted">5º Geração de Computadores(Atualidade)</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+
+
+    <!-- Div para o Grafico -->
+    <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Evolução Grafica</h5>
+          <p class="card-text">Neste Grafico você vai encontrar pontos chave e uma narrativa sobre cada ponto da Evolução do Computador até os dias atuais. Aproveite!!</p>
+          <p class="card-text"><small class="text-muted">Feito com: <a>https://storyline.knightlab.com/</a></small></p>
+        </div>
+        <iframe src="https://cdn.knightlab.com/libs/storyline/latest/embed/index.html?dataURL=https%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fd%2Fe%2F2PACX-1vTFjxIrdWaWWsqFhhG_52PjqpKOvxLU5Nl_3_WcKVftRUWS1yd62xF0DQX_X1KX0WuHxrZT41fQi53J%2Fpubhtml&amp;dataYCol=year&amp;dataXCol=year&amp;dataDateFormat=%25Y&amp;chartDateFormat=%25Y&amp;chartYLabel=year&amp;sliderCardTitleCol=title&amp;sliderCardTextCol=text" style="width:100%;height:650px;" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0"></iframe>
+      </div>
+</body>
+
+</html>
